@@ -116,7 +116,7 @@ chunking_by([3, 4, 5], 1) == [[3], [4], [5]]
 
 ```
 
-ref: https://py.checkio.org/en/mission/chunk/Links
+ref: https://py.checkio.org/en/mission/chunk/Links 
 
 ### Exercise 5 - 2pts
 
