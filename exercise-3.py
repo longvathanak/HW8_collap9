@@ -1,4 +1,5 @@
 def remove_all_after(numbers, n):
+    iisdad
     # check if the numbers is empty
     if not numbers: 
         return []
