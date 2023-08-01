@@ -15,7 +15,6 @@ def index_power(numbers, n):
 # This process is repeated until 'n' is reached.
 # Finally, the function returns the value of 'power'
 
-
 # test case
 numbers = [1, 2, 3, 4]
 n = 2
