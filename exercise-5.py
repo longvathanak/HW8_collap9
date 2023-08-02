@@ -14,5 +14,4 @@ def reverse_ascending(numbers):
     result.extend(reversed(sequence))
     return result
     ...
-print(reverse_ascending([10, 7, 5, 4, 8, 7, 2, 3, 1]))
 

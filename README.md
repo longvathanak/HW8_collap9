@@ -116,7 +116,7 @@ chunking_by([3, 4, 5], 1) == [[3], [4], [5]]
 
 ```
 
-ref: https://py.checkio.org/en/mission/chunk/Links
+ref: https://py.checkio.org/en/mission/chunk/Links 
 
 ### Exercise 5 - 2pts
 
@@ -159,8 +159,9 @@ assert list(reverse_ascending([])) == []
 14
 ```
 
-How it is used: (math is used everywhere)
+How it is used: (math is used everywhere).
 
 Precondition: given sequence includes only integers.
+
 
 ref: https://py.checkio.org/en/mission/reverse-every-ascending/
