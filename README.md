@@ -159,7 +159,7 @@ assert list(reverse_ascending([])) == []
 14
 ```
 
-How it is used: (math is used everywhere)
+How it is used: (math is used everywhere).
 
 Precondition: given sequence includes only integers.
 

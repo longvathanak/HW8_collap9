@@ -28,7 +28,7 @@ print(index_power(numbers, n))
 numbers=[0, 1]
 n=0
 print(index_power(numbers, n))
-array=[1, 2]
+numbers=[1, 2]
 n=3
 print(index_power(numbers, n))
 
