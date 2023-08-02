@@ -17,5 +17,7 @@ def reverse_ascending(numbers):
 
     return reverse_ascending(left) + middle + reverse_ascending(right)
     ...
+print(reverse_ascending ([1, 2, 3, 4, 5]))
 print(reverse_ascending([5, 7, 10, 4, 2, 7, 8, 1, 3]))
-
+print(reverse_ascending([5, 4, 3, 2, 1]))
+print(reverse_ascending([]))
