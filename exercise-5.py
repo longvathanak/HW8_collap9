@@ -2,20 +2,17 @@ def reverse_ascending(numbers):
     if len(numbers) <= 1:
         return numbers
 
-    central = numbers[len(numbers) // 2]
-    left = []
-    middle = []
-    right = []
-    
-    for x in numbers:
-        if x > central:
-            left.append(x)
-        elif x == central:
-            middle.append(x)
-        else:
-            right.append(x)
+    result = []
+    sequence = [numbers[0]]
 
-    return reverse_ascending(left) + middle + reverse_ascending(right)
+    for i in range(1, len(numbers)): 
+        if numbers[i] > numbers[i-1]: 
+            sequence.append(numbers[i])
+        else: 
+            result.extend(reversed(sequence))
+            sequence = [numbers[i]]
+    result.extend(reversed(sequence))
+    return result
     ...
-print(reverse_ascending([5, 7, 10, 4, 2, 7, 8, 1, 3]))
+print(reverse_ascending([10, 7, 5, 4, 8, 7, 2, 3, 1]))
 
