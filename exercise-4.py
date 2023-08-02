@@ -9,5 +9,7 @@ def chunking_by(numbers, chunck):
     return new_list
 
 
-print(chunking_by([1,2,3,4,5,6,7], 2))
-print(chunking_by([], 2))
+print(chunking_by([5, 4, 7, 3, 4, 5, 4], 3))
+print(chunking_by([3, 4, 5], 1))
+
+

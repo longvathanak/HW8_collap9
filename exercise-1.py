@@ -8,11 +8,15 @@ def replace_last(numbers):
         return numbers
       
 # test case
-numbers = [5, 9, 4, 8,3,7]
+numbers = [2, 3, 4, 1]
 print(replace_last(numbers))
 
-numbers = [2,3,4,7,5,1]
+numbers = [1, 2, 3, 4]
 print(replace_last(numbers))
 
-numbers = [10,9,6,8,3,5,7]
+numbers = [1]
 print(replace_last(numbers))
+
+numbers = []
+print(replace_last(numbers))
+

@@ -13,6 +13,7 @@ def remove_all_after(numbers, n):
     return numbers
    
 #test case 
-print(remove_all_after([1,2,3,4,5], 2))
-print(remove_all_after([], 3))
-print(remove_all_after([2,2,3,4,1,6], ()))
+print(remove_all_after([1, 2, 3, 4, 5], 3))
+print(remove_all_after([1, 1, 2, 2, 3, 3], 2))
+
+
