@@ -15,4 +15,8 @@ numbers = [2,3,4,7,5,1]
 print(replace_last(numbers))
 
 numbers = [10,9,6,8,3,5,7]
+<<<<<<< HEAD
 print (replace_last(numbers))
+=======
+print (replace_last(numbers))
+>>>>>>> f6d10ddab46f297c6a72390a3a3e96b86922d4aa
