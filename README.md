@@ -163,4 +163,5 @@ How it is used: (math is used everywhere)
 
 Precondition: given sequence includes only integers.
 
+
 ref: https://py.checkio.org/en/mission/reverse-every-ascending/
